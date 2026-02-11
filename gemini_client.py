@@ -22,7 +22,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 # ── config ────────────────────────────────────────────────
-API_KEY        = os.getenv("GEMINI_API_KEY", "AIzaSyBp1C2DHkp__3P9xZ71qyOP6GUY_LN6LzA")
+API_KEY        = os.getenv("GEMINI_API_KEY", "PASTE YOUR API KEY HERE")
 MODEL_NAME     = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
 MAX_TOKENS     = int(os.getenv("MAX_OUTPUT_TOKENS", "1024"))
 TEMPERATURE    = float(os.getenv("TEMPERATURE", "0.7"))
